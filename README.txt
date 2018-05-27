@@ -1,9 +1,10 @@
 Python Project to store 3rd Party API responses for purpose of benchmarking.
+Components:-
 
 1) Third Party API:
-	Used Local Elastic search For Third party API. It can handle 1000 parallel requests.
+	Used Local Elastic search For Third party API. It can handle much more than 1000 parallel requests.
 	Bank data is used to store in elsatic search(data/accounts.json) and randomly generated
-	Balance to call Elastic search REST API with bank > random generated number.
+	Balance to call Elastic search REST API with balance > random generated number.
 	This gives randomness in API call. service_config Files handles Third party API related configs.
 
 
@@ -14,7 +15,7 @@ Python Project to store 3rd Party API responses for purpose of benchmarking.
     Its set as 0sec now.
 
 4) Redis Cache(model package): This is used to store records and response time related information return by
-    service. Service use this model to insert in redis cache.
+    third party API. Service use this model to insert in redis cache.
 
 5) Flask Rest API: Flask endpoint to provide REST API's to get data from redis.
     API's Are: All API's return json with "data" as array of record. Response json has count and status fields also.
@@ -56,7 +57,7 @@ USE curl api calls to check the result
 
 Future Work.
 1. No Exception Handling like Redis Connection fail.
-2. If third API fails cahce failed URl in redis and retry.
+2. If third Party API call fails cache failed URl in redis and retry.
 
 
 
