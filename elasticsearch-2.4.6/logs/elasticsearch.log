@@ -1,0 +1,18 @@
+[2018-05-26 10:57:13,687][INFO ][node                     ] [Shockwave] version[2.4.6], pid[18852], build[5376dca/2017-07-18T12:17:44Z]
+[2018-05-26 10:57:13,688][INFO ][node                     ] [Shockwave] initializing ...
+[2018-05-26 10:57:14,435][INFO ][plugins                  ] [Shockwave] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-05-26 10:57:14,546][INFO ][env                      ] [Shockwave] using [1] data paths, mounts [[/home/vagrant/workspace (192.168.33.1:/Users/sandeepsharma/Work)]], net usable_space [200gb], net total_space [232.6gb], spins? [possibly], types [nfs]
+[2018-05-26 10:57:14,546][INFO ][env                      ] [Shockwave] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-05-26 10:57:14,548][WARN ][env                      ] [Shockwave] max file descriptors [4096] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2018-05-26 10:57:17,218][INFO ][node                     ] [Shockwave] initialized
+[2018-05-26 10:57:17,220][INFO ][node                     ] [Shockwave] starting ...
+[2018-05-26 10:57:17,324][INFO ][transport                ] [Shockwave] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-05-26 10:57:17,331][INFO ][discovery                ] [Shockwave] elasticsearch/IrTyGx5VQfmXeISjhP8CvA
+[2018-05-26 10:57:20,425][INFO ][cluster.service          ] [Shockwave] new_master {Shockwave}{IrTyGx5VQfmXeISjhP8CvA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-05-26 10:57:20,468][INFO ][http                     ] [Shockwave] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-05-26 10:57:20,469][INFO ][node                     ] [Shockwave] started
+[2018-05-26 10:57:20,519][INFO ][gateway                  ] [Shockwave] recovered [0] indices into cluster_state
+[2018-05-26 10:57:32,328][INFO ][node                     ] [Shockwave] stopping ...
+[2018-05-26 10:57:32,359][INFO ][node                     ] [Shockwave] stopped
+[2018-05-26 10:57:32,359][INFO ][node                     ] [Shockwave] closing ...
+[2018-05-26 10:57:32,376][INFO ][node                     ] [Shockwave] closed

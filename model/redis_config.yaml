@@ -1,0 +1,10 @@
+debug: 1
+local:
+    record_expiry: 30
+    record_size: 50
+    response_time_expiry: 30
+    response_time_record_size: 50
+    host: localhost
+    port: 6379
+Production: No #Overwrite for prod environment
+

@@ -1,0 +1,19 @@
+debug: 1
+local:
+  scheduler:
+    period: 0 #in seconds continuous service period
+
+  thirdpartyapi: #using local elastic search with bank data as
+    host: localhost
+    port: 9200
+    parallel_calls: 1000
+    url: /bank/_search
+    max_record: 10
+    balance_max: 50000
+    protocol: http
+    record_size: 50
+production:
+  scheduler:
+    period: 0 #in seconds
+  thirdpartyapi: No#Give details of production third party api
+

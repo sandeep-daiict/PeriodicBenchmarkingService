@@ -1,0 +1,7 @@
+debug: 1
+local:
+  restapi:
+    host: localhost
+    port: 8088
+production:
+  restapi:
